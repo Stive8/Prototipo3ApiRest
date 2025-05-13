@@ -26,7 +26,6 @@ public class PredioController {
     }
 
 
-
     @PostMapping("/")
     public ResponseEntity<?> addPredio(@Valid @RequestBody PredioDTO predioDTO) {
         Predio nuevoPredio = servicioPredio.crearPredio(
@@ -75,6 +74,38 @@ public class PredioController {
         boolean deleted = servicioPredio.deleteById(id);
         return deleted ? ResponseEntity.status(HttpStatus.OK).body("El predio con ID " + id + " eliminado correctamente.") :
                 ResponseEntity.status(HttpStatus.NOT_FOUND).body("El predio con ID " + id + " no existe.");
+    }
+
+    @GetMapping("/estrato/greater/{estrato}")
+    public ResponseEntity<?> getPrediosByEstratoGreaterThan(@PathVariable int estrato) {
+        List<Predio> predios = servicioPredio.findByEstratoGreaterThan(estrato);
+        if (!predios.isEmpty()) {
+            return ResponseEntity.ok(predios);
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("No hay predios que cumplan con el criterio");
+        }
+    }
+
+    @GetMapping("/estrato/less/{estrato}")
+    public ResponseEntity<?> getPrediosByEstratoLessThan(@PathVariable int estrato) {
+        List<Predio> predios = servicioPredio.findByEstratoLessThan(estrato);
+        if (!predios.isEmpty()) {
+            return ResponseEntity.ok(predios);
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("No hay predios que cumplan con el criterio");
+        }
+    }
+
+    @GetMapping("/estrato/rango")
+    public ResponseEntity<?> getPrediosByEstratoRange(
+            @RequestParam int min,
+            @RequestParam int max) {
+        List<Predio> predios = servicioPredio.findByEstratoRange(min, max);
+        if (!predios.isEmpty()) {
+            return ResponseEntity.ok(predios);
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("No hay predios que cumplan con el criterio");
+        }
     }
 
 }

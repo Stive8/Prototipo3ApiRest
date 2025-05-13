@@ -33,10 +33,12 @@ public class ServicioPredio implements IServicioPredio {
         return prediosRepository.findAll();
     }
 
+    @Override
     public Optional<Predio> findById(Long id){
         return prediosRepository.findById(id);
     }
 
+    @Override
     public boolean deleteById(Long id){
         if(prediosRepository.existsById(id)){
             prediosRepository.deleteById(id);
@@ -45,6 +47,7 @@ public class ServicioPredio implements IServicioPredio {
         return false;
     }
 
+    @Override
     public Predio updateById(Long id, String representanteLegal, String direccion, int estrato, double consumo) {
         Optional<Predio> predioOptional = prediosRepository.findById(id);
         if (predioOptional.isPresent()) {
@@ -60,15 +63,18 @@ public class ServicioPredio implements IServicioPredio {
     }
 
     @Override
-    public void agregarPredio(Predio predio) {
-
+    public List<Predio> findByEstratoGreaterThan(int estrato) {
+        return prediosRepository.findByEstratoGreaterThan(estrato);
     }
 
     @Override
-    public Predio addPredio(Predio predio) {
-        Predio pre = null;
-        pre = prediosRepository.save(pre);
-        return pre;
+    public List<Predio> findByEstratoLessThan(int estrato) {
+        return prediosRepository.findByEstratoLessThan(estrato);
+    }
+
+    @Override
+    public List<Predio> findByEstratoRange(int estratoMin, int estratoMax) {
+        return prediosRepository.findByEstratoBetween(estratoMin, estratoMax);
     }
 
     private double calcularValorFactura(double consumo, int estrato) {
@@ -76,11 +82,12 @@ public class ServicioPredio implements IServicioPredio {
 
         // Ejemplo: tarifas ficticias por estrato
         switch (estrato) {
-            case 1 -> tarifaBase = 500;
-            case 2 -> tarifaBase = 800;
-            case 3 -> tarifaBase = 1000;
-            case 4 -> tarifaBase = 1200;
-            case 5 -> tarifaBase = 1500;
+            case 1 -> tarifaBase = 100;
+            case 2 -> tarifaBase = 300;
+            case 3 -> tarifaBase = 5000;
+            case 4 -> tarifaBase = 800;
+            case 5 -> tarifaBase = 1000;
+            case 6 -> tarifaBase = 1500;
             default -> tarifaBase = 2000;
         }
 
