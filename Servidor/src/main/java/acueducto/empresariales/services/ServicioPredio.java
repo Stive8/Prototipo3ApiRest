@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class ServicioPredio implements IServicioPredio {
@@ -30,6 +31,32 @@ public class ServicioPredio implements IServicioPredio {
     @Override
     public List<Predio> getAllPredios() {
         return prediosRepository.findAll();
+    }
+
+    public Optional<Predio> findById(Long id){
+        return prediosRepository.findById(id);
+    }
+
+    public boolean deleteById(Long id){
+        if(prediosRepository.existsById(id)){
+            prediosRepository.deleteById(id);
+            return true;
+        }
+        return false;
+    }
+
+    public Predio updateById(Long id, String representanteLegal, String direccion, int estrato, double consumo) {
+        Optional<Predio> predioOptional = prediosRepository.findById(id);
+        if (predioOptional.isPresent()) {
+            Predio predio = predioOptional.get();
+            predio.setRepresentanteLegal(representanteLegal);
+            predio.setDireccion(direccion);
+            predio.setEstrato(estrato);
+            predio.setConsumo(consumo);
+            predio.setValorFactura(calcularValorFactura(consumo, estrato));
+            return prediosRepository.save(predio);
+        }
+        throw new RuntimeException("Predio con ID " + id + " no encontrado");
     }
 
     @Override

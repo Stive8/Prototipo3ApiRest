@@ -6,10 +6,12 @@ import acueducto.empresariales.model.Predio;
 import acueducto.empresariales.services.ServicioPredio;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping(value = "/predios")
@@ -23,21 +25,56 @@ public class PredioController {
         return "OK";
     }
 
+
+
     @PostMapping("/")
-    public ResponseEntity<Predio> addPredio(@Valid @RequestBody PredioDTO predioDTO) {
+    public ResponseEntity<?> addPredio(@Valid @RequestBody PredioDTO predioDTO) {
         Predio nuevoPredio = servicioPredio.crearPredio(
                 predioDTO.getRepresentanteLegal(),
                 predioDTO.getDireccion(),
                 predioDTO.getEstrato(),
                 predioDTO.getConsumo()
         );
-        return ResponseEntity.ok(nuevoPredio);
+        return ResponseEntity.status(HttpStatus.OK).body("Predio creado exitosamente");
     }
 
     @GetMapping("/")
     public ResponseEntity<List<Predio>> getAllPredios() {
         List<Predio> predios = servicioPredio.getAllPredios();
         return ResponseEntity.ok(predios);
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<?> getPredioById(@PathVariable Long id) {
+        Optional<Predio> predioOptional = servicioPredio.findById(id);
+        if (predioOptional.isPresent()) {
+            return ResponseEntity.ok(predioOptional.get());
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("El predio con ID " + id + " no existe.");
+        }
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<?> updatePredio(@PathVariable Long id, @Valid @RequestBody PredioDTO predioDTO) {
+        try {
+            Predio updatedPredio = servicioPredio.updateById(
+                    id,
+                    predioDTO.getRepresentanteLegal(),
+                    predioDTO.getDireccion(),
+                    predioDTO.getEstrato(),
+                    predioDTO.getConsumo()
+            );
+            return ResponseEntity.status(HttpStatus.OK).body("El predio con ID " + id + " se ha actualizado correctamente.");
+        } catch (RuntimeException e) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("El predio con ID " + id + " no existe.");
+        }
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<?> deletePredio(@PathVariable Long id) {
+        boolean deleted = servicioPredio.deleteById(id);
+        return deleted ? ResponseEntity.status(HttpStatus.OK).body("El predio con ID " + id + " eliminado correctamente.") :
+                ResponseEntity.status(HttpStatus.NOT_FOUND).body("El predio con ID " + id + " no existe.");
     }
 
 }
