@@ -16,5 +16,6 @@ public interface IServicioPredio {
     List<Predio> findByEstratoLessThan(int estrato);
     List<Predio> findByEstratoGreaterThan(int estrato);
     List<Predio> findByEstratoRange(int estratoMin, int estratoMax);
+    List<Predio> listarPrediosActivos();
 
 }

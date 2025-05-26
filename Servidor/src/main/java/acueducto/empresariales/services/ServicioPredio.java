@@ -25,6 +25,7 @@ public class ServicioPredio implements IServicioPredio {
         predio.setConsumo(consumo);
         predio.setValorFactura(calcularValorFactura(consumo, estrato));
         predio.setFechaRegistro(LocalDate.now());
+        predio.setEstado(Predio.ESTADO_ACTIVO);
         return prediosRepository.save(predio);
     }
 
@@ -40,8 +41,11 @@ public class ServicioPredio implements IServicioPredio {
 
     @Override
     public boolean deleteById(Long id){
-        if(prediosRepository.existsById(id)){
-            prediosRepository.deleteById(id);
+        Optional<Predio> predioOptional = prediosRepository.findById(id);
+        if(predioOptional.isPresent()){
+            Predio predio = predioOptional.get();
+            predio.setEstado(Predio.ESTADO_INACTIVO);
+            prediosRepository.save(predio);
             return true;
         }
         return false;
@@ -75,6 +79,11 @@ public class ServicioPredio implements IServicioPredio {
     @Override
     public List<Predio> findByEstratoRange(int estratoMin, int estratoMax) {
         return prediosRepository.findByEstratoBetween(estratoMin, estratoMax);
+    }
+
+    @Override
+    public List<Predio> listarPrediosActivos() {
+        return prediosRepository.findActivos("ACTIVO");
     }
 
     private double calcularValorFactura(double consumo, int estrato) {

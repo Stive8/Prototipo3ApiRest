@@ -14,9 +14,13 @@ import java.time.LocalDate;
 @Table(name = "PREDIOS")
 public class Predio {
 
+    public static final String ESTADO_ACTIVO = "ACTIVO";
+    public static final String ESTADO_INACTIVO = "INACTIVO";
+
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long codigo;
+    private Long id;
 
     private String representanteLegal;
     private String direccion;
@@ -24,5 +28,6 @@ public class Predio {
     private int estrato;
     private double consumo;
     private double valorFactura;
+    private String estado;
 
 }

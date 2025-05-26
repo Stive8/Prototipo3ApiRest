@@ -21,4 +21,7 @@ public interface PrediosRepository extends JpaRepository <Predio, Long> {
     @Query("SELECT p FROM Predio p WHERE p.estrato BETWEEN :min AND :max")
     List<Predio> findByEstratoBetween(@Param("min") int estratoMin, @Param("max") int estratoMax);
 
+    @Query("SELECT p FROM Predio p WHERE p.estado = :estado")
+    List<Predio> findActivos(@Param("estado") String estado);
+
 }

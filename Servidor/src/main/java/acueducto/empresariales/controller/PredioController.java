@@ -108,4 +108,10 @@ public class PredioController {
         }
     }
 
+    @GetMapping("/activos")
+    public ResponseEntity<List<Predio>> getPrediosActivos() {
+        List<Predio> activos = servicioPredio.listarPrediosActivos();
+        return ResponseEntity.ok(activos);
+    }
+
 }
