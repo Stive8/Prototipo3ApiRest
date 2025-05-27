@@ -12,8 +12,8 @@ import java.util.List;
 
 @Repository
 public interface MedidorRepository extends JpaRepository<Medidor, Long> {
-    @Query("SELECT p FROM Predio p WHERE p.estado = :estado")
-    List<Medidor> findActivos(@Param("estado") String estado);
+
+    List<Medidor> findByEstado(String estado);
 
     @Query("SELECT m FROM Medidor m WHERE m.predio.id = :idPredio")
     List<Medidor> findByPredioId(@Param("idPredio") Long idPredio);

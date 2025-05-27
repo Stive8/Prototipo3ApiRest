@@ -65,7 +65,7 @@ public class ServicioMedidor implements IServicioMedidor {
 
     @Override
     public List<Medidor> listarMedidoresActivos() {
-        return medidorRepository.findActivos("ACTIVO");
+        return medidorRepository.findByEstado("ACTIVO");
     }
 
     @Override
