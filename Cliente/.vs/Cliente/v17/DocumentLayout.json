@@ -3,44 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|c:\\users\\usuario\\documents\\github\\prototipo3apirest\\cliente\\cliente\\apiservicemedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|solutionrelative:cliente\\apiservicemedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|c:\\users\\usuario\\documents\\github\\prototipo3apirest\\cliente\\cliente\\guilistarmedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|solutionrelative:cliente\\guilistarmedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|c:\\users\\usuario\\documents\\github\\prototipo3apirest\\cliente\\cliente\\guiactualizarmedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|solutionrelative:cliente\\guiactualizarmedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|c:\\users\\usuario\\documents\\github\\prototipo3apirest\\cliente\\cliente\\guilistarmedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|solutionrelative:cliente\\guilistarmedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|c:\\users\\usuario\\documents\\github\\prototipo3apirest\\cliente\\cliente\\guieliminarmedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|solutionrelative:cliente\\guieliminarmedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|c:\\users\\usuario\\documents\\github\\prototipo3apirest\\cliente\\cliente\\guieliminarmedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|solutionrelative:cliente\\guieliminarmedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|c:\\users\\usuario\\documents\\github\\prototipo3apirest\\cliente\\cliente\\guiactualizarmedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|solutionrelative:cliente\\guiactualizarmedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|c:\\users\\usuario\\documents\\github\\prototipo3apirest\\cliente\\cliente\\guiconsultarmedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|solutionrelative:cliente\\guiconsultarmedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|c:\\users\\usuario\\documents\\github\\prototipo3apirest\\cliente\\cliente\\guiconsultarmedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|solutionrelative:cliente\\guiconsultarmedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|c:\\users\\usuario\\documents\\github\\prototipo3apirest\\cliente\\cliente\\guicrearmedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|solutionrelative:cliente\\guicrearmedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|c:\\users\\usuario\\documents\\github\\prototipo3apirest\\cliente\\cliente\\guicrearmedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|solutionrelative:cliente\\guicrearmedidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|c:\\users\\usuario\\documents\\github\\prototipo3apirest\\cliente\\cliente\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|solutionrelative:cliente\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|c:\\users\\usuario\\documents\\github\\prototipo3apirest\\cliente\\cliente\\guieliminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|solutionrelative:cliente\\guieliminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|c:\\users\\usuario\\documents\\github\\prototipo3apirest\\cliente\\cliente\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|solutionrelative:cliente\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|c:\\users\\usuario\\documents\\github\\prototipo3apirest\\cliente\\cliente\\guiactualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|solutionrelative:cliente\\guiactualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|c:\\users\\usuario\\documents\\github\\prototipo3apirest\\cliente\\cliente\\guiconsultar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|solutionrelative:cliente\\guiconsultar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|c:\\users\\usuario\\documents\\github\\prototipo3apirest\\cliente\\cliente\\guiconsultar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E95E5C06-1B6F-4829-9B81-9E6FC6D58953}|Cliente\\Cliente.csproj|solutionrelative:cliente\\guiconsultar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,126 +55,129 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApiServiceMedidor.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\ApiServiceMedidor.cs",
-              "RelativeDocumentMoniker": "Cliente\\ApiServiceMedidor.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\ApiServiceMedidor.cs",
-              "RelativeToolTip": "Cliente\\ApiServiceMedidor.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAcwCYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T02:21:28.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GUIListarMedidor.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIListarMedidor.cs",
-              "RelativeDocumentMoniker": "Cliente\\GUIListarMedidor.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIListarMedidor.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Cliente\\GUIListarMedidor.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T02:20:20.691Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "GUIEliminarMedidor.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIEliminarMedidor.cs",
               "RelativeDocumentMoniker": "Cliente\\GUIEliminarMedidor.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIEliminarMedidor.cs",
               "RelativeToolTip": "Cliente\\GUIEliminarMedidor.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAwwH0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T02:18:50.678Z",
+              "WhenOpened": "2025-05-27T07:17:25.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GUIEliminarMedidor.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIEliminarMedidor.cs",
-              "RelativeDocumentMoniker": "Cliente\\GUIEliminarMedidor.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIEliminarMedidor.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Cliente\\GUIEliminarMedidor.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "GUIActualizarMedidor.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIActualizarMedidor.cs",
+              "RelativeDocumentMoniker": "Cliente\\GUIActualizarMedidor.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIActualizarMedidor.cs",
+              "RelativeToolTip": "Cliente\\GUIActualizarMedidor.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAwwIMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T02:18:42.862Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GUIListarMedidor.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIListarMedidor.cs",
-              "RelativeDocumentMoniker": "Cliente\\GUIListarMedidor.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIListarMedidor.cs",
-              "RelativeToolTip": "Cliente\\GUIListarMedidor.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAADwv1MAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T02:14:09.383Z",
+              "WhenOpened": "2025-05-27T07:05:25.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GUIActualizarMedidor.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIActualizarMedidor.cs",
-              "RelativeDocumentMoniker": "Cliente\\GUIActualizarMedidor.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIActualizarMedidor.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Cliente\\GUIActualizarMedidor.cs [Dise\u00F1o]",
+              "Title": "GUIConsultarMedidor.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIConsultarMedidor.cs",
+              "RelativeDocumentMoniker": "Cliente\\GUIConsultarMedidor.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIConsultarMedidor.cs",
+              "RelativeToolTip": "Cliente\\GUIConsultarMedidor.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowEUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T02:12:03.908Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-05-27T07:02:04.607Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "GUIConsultarMedidor.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIConsultarMedidor.cs",
               "RelativeDocumentMoniker": "Cliente\\GUIConsultarMedidor.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIConsultarMedidor.cs [Dise\u00F1o]",
               "RelativeToolTip": "Cliente\\GUIConsultarMedidor.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T02:11:56.891Z",
+              "WhenOpened": "2025-05-27T06:33:57.796Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "GUICrearMedidor.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUICrearMedidor.cs",
+              "RelativeDocumentMoniker": "Cliente\\GUICrearMedidor.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUICrearMedidor.cs",
+              "RelativeToolTip": "Cliente\\GUICrearMedidor.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:27:22.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "GUICrearMedidor.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUICrearMedidor.cs",
               "RelativeDocumentMoniker": "Cliente\\GUICrearMedidor.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUICrearMedidor.cs [Dise\u00F1o]",
               "RelativeToolTip": "Cliente\\GUICrearMedidor.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T02:11:20.201Z",
+              "WhenOpened": "2025-05-27T06:25:24.547Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\Form1.cs",
-              "RelativeDocumentMoniker": "Cliente\\Form1.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Cliente\\Form1.cs [Dise\u00F1o]",
+              "DocumentIndex": 6,
+              "Title": "GUIEliminar.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIEliminar.cs",
+              "RelativeDocumentMoniker": "Cliente\\GUIEliminar.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIEliminar.cs",
+              "RelativeToolTip": "Cliente\\GUIEliminar.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwG0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T01:27:30.847Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-05-27T06:09:50.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GUIActualizar.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIActualizar.cs",
+              "RelativeDocumentMoniker": "Cliente\\GUIActualizar.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIActualizar.cs",
+              "RelativeToolTip": "Cliente\\GUIActualizar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T05:54:44.846Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\Form1.cs",
-              "RelativeDocumentMoniker": "Cliente\\Form1.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\Form1.cs",
-              "RelativeToolTip": "Cliente\\Form1.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAswH0AAAAfAAAAAAAAAA==",
+              "Title": "GUIConsultar.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIConsultar.cs",
+              "RelativeDocumentMoniker": "Cliente\\GUIConsultar.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIConsultar.cs",
+              "RelativeToolTip": "Cliente\\GUIConsultar.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAD4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T23:51:03.001Z",
+              "WhenOpened": "2025-05-27T05:45:41.061Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GUIConsultar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIConsultar.cs",
+              "RelativeDocumentMoniker": "Cliente\\GUIConsultar.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Prototipo3ApiRest\\Cliente\\Cliente\\GUIConsultar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Cliente\\GUIConsultar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T05:45:38.37Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
