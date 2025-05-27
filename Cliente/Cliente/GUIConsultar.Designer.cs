@@ -44,6 +44,7 @@
             this.txtId = new System.Windows.Forms.TextBox();
             this.txtValorFactura = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnConsultar
@@ -153,9 +154,8 @@
             this.label1.Location = new System.Drawing.Point(10, 7);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 13);
+            this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 18;
-            this.label1.Text = "Modulo para Crear";
             // 
             // label10
             // 
@@ -193,11 +193,21 @@
             this.label4.TabIndex = 39;
             this.label4.Text = "Valor Factura";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(26, 9);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(122, 13);
+            this.label7.TabIndex = 40;
+            this.label7.Text = "Modulo Consultar Predio";
+            // 
             // Consultar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(447, 353);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtValorFactura);
             this.Controls.Add(this.txtId);
@@ -240,5 +250,6 @@
         private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.TextBox txtValorFactura;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label7;
     }
 }

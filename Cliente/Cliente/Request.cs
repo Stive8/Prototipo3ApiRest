@@ -12,6 +12,7 @@ namespace Cliente
         public int estrato { get; set; }
         public double consumo { get; set; }
         public double valorFactura { get; set; }
+        public string estado { get; set; } 
         //public double Subsidio { get; set; }
         //public string TipoComercio { get; set; }
 

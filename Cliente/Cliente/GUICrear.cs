@@ -121,7 +121,7 @@ namespace Cliente
             }
             catch (HttpRequestException ex)
             {
-                MessageBox.Show("Error de conexión al servidor: " + ex.Message, "Error de red", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error: " + ex.Message + "\n" + ex.StackTrace, "Excepción general", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             catch (FormatException ex)
             {

@@ -155,3 +155,8 @@ C:\Users\Usuario\Documents\GitHub\Prototipo3ApiRest\Cliente\Cliente\bin\Debug\Sy
 C:\Users\Usuario\Documents\GitHub\Prototipo3ApiRest\Cliente\Cliente\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Usuario\Documents\GitHub\Prototipo3ApiRest\Cliente\Cliente\bin\Debug\System.ValueTuple.xml
 C:\Users\Usuario\Documents\GitHub\Prototipo3ApiRest\Cliente\Cliente\obj\Debug\Cliente.csproj.Up2Date
+C:\Users\Usuario\Documents\GitHub\Prototipo3ApiRest\Cliente\Cliente\obj\Debug\Cliente.GUICrearMedidor.resources
+C:\Users\Usuario\Documents\GitHub\Prototipo3ApiRest\Cliente\Cliente\obj\Debug\Cliente.GUIListarMedidor.resources
+C:\Users\Usuario\Documents\GitHub\Prototipo3ApiRest\Cliente\Cliente\obj\Debug\Cliente.GUIConsultarMedidor.resources
+C:\Users\Usuario\Documents\GitHub\Prototipo3ApiRest\Cliente\Cliente\obj\Debug\Cliente.GUIActualizarMedidor.resources
+C:\Users\Usuario\Documents\GitHub\Prototipo3ApiRest\Cliente\Cliente\obj\Debug\Cliente.GUIEliminarMedidor.resources

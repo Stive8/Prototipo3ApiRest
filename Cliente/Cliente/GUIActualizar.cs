@@ -118,7 +118,7 @@ namespace Cliente
                 var client = new RestClient(options);
 
                 // Crear solicitud PUT
-                var request = new RestRequest($"/predios/", Method.Put);
+                var request = new RestRequest($"/predios/{id}", Method.Put);
                 request.AddJsonBody(requestData);
 
                 // Enviar solicitud
@@ -161,7 +161,7 @@ namespace Cliente
                     return;
                 }
 
-                var options = new RestClientOptions("http://localhost:8081");
+                var options = new RestClientOptions("http://localhost:8091");
                 var client = new RestClient(options);
 
                 var request = new RestRequest($"/predios/{id}", Method.Get);
@@ -192,6 +192,8 @@ namespace Cliente
             }
 
         }
+
+
 
         private void txtDireccion_TextChanged(object sender, EventArgs e)
         {
